@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recarga de Monedas</title>
+  <style>
+    /* Estilos CSS para personalizar la apariencia de la página */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    input[type="text"], select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Recarga de Monedas</h1>
+    <form>
+      <label for="amount">Cantidad de monedas:</label>
+      <input type="text" id="amount" name="amount" placeholder="Ingrese la cantidad de monedas que desea recargar">
+      
+      <label for="payment-method">Método de pago:</label>
+      <select id="payment-method" name="payment-method">
+        <option value="credit-card">Tarjeta de crédito</option>
+        <option value="paypal">PayPal</option>
+        <option value="bitcoin">Bitcoin</option>
+      </select>
+      
+      <button type="submit">Recargar Monedas</button>
+    </form>
+  </div>
+</body>
+</html>
